@@ -18,3 +18,8 @@ poetry run yandex_music_qt_app
 ```shell
 pip install poetry
 ```
+
+## Todo
+- Поиск
+- Повтор очереди
+- Главная страница
