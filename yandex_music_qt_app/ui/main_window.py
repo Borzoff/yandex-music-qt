@@ -7,7 +7,6 @@
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
-from yandex_music_qt_app.widgets.PlayerList import PlayerListWidget, PlayerTableWidget
 
 
 class Ui_MainWindow(object):
@@ -492,11 +491,11 @@ class Ui_MainWindow(object):
         self.menu_2 = QtWidgets.QMenu(parent=self.menuBar)
         self.menu_2.setObjectName("menu_2")
         MainWindow.setMenuBar(self.menuBar)
-        self.action = QtGui.QAction(parent=MainWindow)
-        self.action.setObjectName("action")
+        self.logout_action = QtGui.QAction(parent=MainWindow)
+        self.logout_action.setObjectName("logout_action")
         self.about_action = QtGui.QAction(parent=MainWindow)
         self.about_action.setObjectName("about_action")
-        self.menu.addAction(self.action)
+        self.menu.addAction(self.logout_action)
         self.menu_2.addAction(self.about_action)
         self.menuBar.addAction(self.menu.menuAction())
         self.menuBar.addAction(self.menu_2.menuAction())
@@ -539,5 +538,8 @@ class Ui_MainWindow(object):
         item.setText(_translate("MainWindow", "Альбом"))
         self.menu.setTitle(_translate("MainWindow", "Аккаунт"))
         self.menu_2.setTitle(_translate("MainWindow", "Справка"))
-        self.action.setText(_translate("MainWindow", "Выйти из аккаунта"))
+        self.logout_action.setText(_translate("MainWindow", "Выйти из аккаунта"))
         self.about_action.setText(_translate("MainWindow", "О программе"))
+
+
+from yandex_music_qt_app.widgets.PlayerList import PlayerListWidget, PlayerTableWidget
