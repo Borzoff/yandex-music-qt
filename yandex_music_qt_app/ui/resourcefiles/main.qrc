@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>volume.png</file>
+    <file>play.png</file>
+    <file>repeat.png</file>
+    <file>heart_filled.png</file>
+    <file>shuffle.png</file>
+    <file>heart.png</file>
+    <file>search.png</file>
+    <file>back.png</file>
+    <file>music_cover.jpg</file>
+    <file>skip.png</file>
+    <file>skip.png</file>
+    <file>pause.png</file>
+    <file>yandexlogo.png</file>
+    <file>shuffle.png</file>
+  </qresource>
+</RCC>
