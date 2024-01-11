@@ -12,7 +12,7 @@ git clone https://github.com/borzoff/yandex-music-qt
 poetry install
 ```
 ```shell
-poetry run yandex_music_qt_app
+poetry run python -m yandex_music_qt_app
 ```
 если нету poetry:
 ```shell
