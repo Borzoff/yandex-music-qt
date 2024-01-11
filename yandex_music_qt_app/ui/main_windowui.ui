@@ -988,7 +988,7 @@ QSlider::sub-page:qlineargradient {
     <property name="title">
      <string>Аккаунт</string>
     </property>
-    <addaction name="action"/>
+    <addaction name="logout_action"/>
    </widget>
    <widget class="QMenu" name="menu_2">
     <property name="title">
@@ -999,7 +999,7 @@ QSlider::sub-page:qlineargradient {
    <addaction name="menu"/>
    <addaction name="menu_2"/>
   </widget>
-  <action name="action">
+  <action name="logout_action">
    <property name="text">
     <string>Выйти из аккаунта</string>
    </property>

@@ -104,6 +104,6 @@ class Ui_Form(object):
         self.label_5.setText(
             _translate(
                 "Form",
-                '<html><head/><body><p><a href="https://github.com/borzoff/yandex-music-qt-app"><span style=" text-decoration: underline; color:#ffffff;">GitHub</span></a></p><p><a href="https://borzoff.github.io/"><span style=" text-decoration: underline; color:#ffffff;">borzoff.github.io</span></a></p></body></html>',
+                '<html><head/><body><p><a href="https://github.com/borzoff/yandex-music-qt"><span style=" text-decoration: underline; color:#ffffff;">GitHub</span></a></p><p><a href="https://borzoff.github.io/"><span style=" text-decoration: underline; color:#ffffff;">borzoff.github.io</span></a></p></body></html>',
             )
         )

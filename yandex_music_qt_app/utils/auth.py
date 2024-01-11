@@ -28,6 +28,14 @@ def rewrite_token(token):
         return token
 
 
+def remove_token():
+    with open(f"{MAIN_DIR}/token.json", "w") as token_file:
+        config = {"token": ""}
+        json.dump(config, token_file)
+
+    sys.exit()
+
+
 def generate_token(token):
     link_post = "https://oauth.yandex.com/token"
     user_agent = (

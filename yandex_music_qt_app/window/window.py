@@ -13,6 +13,7 @@ from yandex_music_qt_app.services.radio import Radio
 from yandex_music_qt_app.ui.main_window import Ui_MainWindow
 from yandex_music_qt_app.services.music import MusicManager
 from yandex_music_qt_app.utils.action_manager import Actions, action_manager
+from yandex_music_qt_app.utils.auth import remove_token
 from yandex_music_qt_app.utils.load_data import load_data
 from PyQt6.QtMultimedia import QMediaPlayer, QAudioOutput
 from yandex_music_qt_app.ui.resourcefiles import resources  # noqa
@@ -63,6 +64,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def init_widgets(self):
         self.like_button.hide()
         self.about_action.triggered.connect(self.open_about)
+        self.logout_action.triggered.connect(remove_token)
         self.playpause_button.clicked.connect(self.player_state)
         self.tracks_table.doubleClicked.connect(self.play_file)
         self.forward_button.clicked.connect(self.next)
