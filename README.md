@@ -23,3 +23,5 @@ pip install poetry
 - Поиск
 - Повтор очереди
 - Главная страница
+
+Используем библиотеку [yandex-music](https://github.com/MarshalX/yandex-music-api/)
